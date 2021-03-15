@@ -6,11 +6,8 @@
 
 <title><?php bloginfo('name'); ?> <?php if ( is_single() ) {  } ?> <?php wp_title(); ?></title>
 
-<meta name="generator" content="WordPress <?php bloginfo('version'); ?>" /> <!-- leave this for stats -->
 
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
-<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
-<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
 <style type="text/css" media="screen">
 
@@ -25,10 +22,6 @@ if ( !$withcomments && !is_single() ) {
 
 </style>
 
-<link rel="openid.server" href="https://pip.verisignlabs.com/server/" />
-<link rel="openid.delegate" href="http://thatblairguy.pip.verisignlabs.com" />
-<link http-equiv="X-XRDS-Location" content="http://pip.verisignlibs.com/user/thatblairguy/yadis" />
-<link http-equiv="X-YADIS-Locaiton" content="http://pip.verisignlabs.com/user/thatblairguy/yadis" />
 
 <?php wp_head(); ?>
 </head>
